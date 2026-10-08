@@ -1,0 +1,52 @@
+# Textos dos livrinhos (transcritos/revisados das ilustrações) e recortes das ilustrações.
+# Cada página: (fração do topo, fração de baixo) da ilustração dentro do painel, título, parágrafos, frase destaque
+LIVROS = [
+ dict(nome='1-O-Planeta-dos-Sonhos', historia='História 1', titulo='O Planeta dos Sonhos',
+  capa=(0.44, 0.93, 'Uma história mágica de amizade e luz'),
+  paginas=[
+   (0.36, 1, 'O Convite', ['Naquela noite, César estava olhando para o céu pela janela do seu quarto. As estrelas pareciam mais brilhantes do que nunca.', 'De repente, uma luz suave apareceu e um pequeno dinossauro azul, com asas brilhantes, pousou na janela!'], None),
+   (0.39, 1, 'A Jornada', ['O dinossauro azul fez um sinal com a cabeça e, de repente, o quarto se transformou em uma nave espacial!', 'César e seus amigos embarcaram em uma aventura rumo ao Planeta dos Sonhos, um lugar onde os dinossauros podiam voar, brincar e explorar livremente.'], None),
+   (0.34, 1, 'A Floresta Flutuante', ['Ao chegarem, encontraram uma floresta mágica com árvores que flutuavam no ar.', 'Os dinossauros correram por entre as nuvens, saltaram em ilhas suspensas e descobriram cristais que brilhavam em todas as cores.'], None),
+   (0.36, 0.82, 'A Amizade', ['César percebeu que o que tornava aquele lugar tão especial não eram os cristais ou as paisagens, mas sim a alegria de estar com seus amigos.', 'Juntos, eles dançaram, correram e compartilharam risadas que ecoavam por todo o planeta.'], 'Os melhores lugares são aqueles que podemos viver ao lado de quem amamos.'),
+   (0.38, 1, 'O Retorno', ['Quando a noite começou a voltar, os dinossauros sabiam que era hora de retornar.', 'O portal luminoso os levou de volta para o quarto de César, onde tudo se acalmou lentamente, como um sonho que se realiza.'], None),
+   (0.34, 0.86, 'Bons Sonhos', ['De volta ao quarto, César se acomodou na cama com seus amigos ao redor.', 'Os dinossauros brilharam suavemente, protegendo o menino até que ele adormecesse com um sorriso no rosto.'], 'Fim da História 1. Boa noite, pequeno explorador de sonhos e aventuras!'),
+  ]),
+ dict(nome='2-A-Montanha-de-Cristais', historia='História 2', titulo='A Montanha de Cristais',
+  capa=(0.32, 1, 'Uma aventura no topo do mundo'),
+  paginas=[
+   (0.30, 1, 'O Mistério', ['Na manhã seguinte, César acordou animado para uma nova missão.', 'Dessa vez, o destino era a Montanha de Cristais, um lugar lendário que ninguém sabia ao certo como chegar.'], None),
+   (0.32, 1, 'O Caminho', ['A jornada não foi fácil. Eles precisaram atravessar rios, pedras, cavernas e até uma ponte de luz.', 'César guiava o grupo com coragem, sempre cuidando dos seus amigos, que o seguiam com confiança.'], None),
+   (0.29, 1, 'A Descoberta', ['Finalmente, chegaram ao topo! Lá, encontraram um enorme cristal brilhante que guardava um segredo:', 'um mapa com novos lugares incríveis para eles explorarem juntos.'], None),
+   (0.27, 1, 'A Celebração', ['César e seus amigos comemoraram a conquista com muita alegria.', 'Eles dançaram, correram e brilharam juntos, espalhando luz por todo o lugar.'], None),
+   (0.26, 0.84, 'Fogos de Luz', ['De repente, o céu se encheu de fogos coloridos que saíam dos cristais.', 'César acenou para as luzes, e os dinossauros brilharam mais forte do que nunca.'], 'A maior aventura é estar ao lado de amigos que tornam tudo mais brilhante!'),
+   (0.29, 1, 'O Retorno', ['Quando o sol começou a se pôr, o portal luminoso os chamou de volta para casa.', 'César sabia que as lembranças daquela aventura ficariam para sempre em seu coração.'], None),
+   (0.33, 0.87, 'Bons Sonhos', ['De volta ao quarto, César se deitou com seus amigos ao redor, prontos para mais uma noite mágica.', 'Os dinossauros brilharam suavemente, protegendo o menino até que ele adormecesse feliz e em paz.'], 'Fim da História 2. Até a próxima aventura, pequeno explorador!'),
+  ]),
+ dict(nome='3-O-Mapa-das-Estrelas', historia='História 3', titulo='O Mapa das Estrelas',
+  capa=(0.30, 0.82, 'Uma nova missão, novas descobertas e a mesma amizade que brilha!'),
+  paginas=[
+   (0.26, 0.77, 'A Reunião Secreta', ['Na noite seguinte, o pequeno César já estava pronto para viver uma nova missão antes de dormir. Ele arrumou seus dinossauros em um grande círculo no tapete do quarto.', 'Cada amigo jurássico ocupava seu lugar de honra. O dinossauro rosa olhava atenta, enquanto o azul e o verde pareciam cochichar segredos sobre uma nova descoberta misteriosa.'], None),
+   (0.23, 0.79, 'A Pedra Transparente', ['Enquanto organizava a torre de blocos, César encontrou uma pedrinha brilhante e transparente escondida no fundo da caixa de brinquedos.', 'Ela parecia guardar um segredo e, quando o menino a tocou, um mapa começou a se desenhar no ar, mostrando um lugar muito especial: a Ilha das Estrelas!'], None),
+   (0.23, 0.81, 'A Ilha Encantada', ['Os dinossauros seguiram o mapa e, com a ajuda de César, chegaram a uma ilha mágica no meio do mar, onde o céu parecia ainda mais bonito.', 'Lá, eles encontraram cristais que brilhavam como estrelas e uma vista incrível. Foi a reunião secreta mais incrível de todas!'], None),
+   (0.23, 0.77, 'O Retorno para Casa', ['Quando a aventura terminou, os dinossauros levaram César de volta para o quarto, abraçados e cheios de alegria.', 'O mapa desapareceu, mas a lembrança daquela noite ficaria para sempre em seu coração. E assim, todos dormiram em paz, prontos para uma nova aventura.'], 'Os maiores tesouros são os amigos que iluminam o nosso caminho.'),
+   (0.17, 0.93, 'Fim da História', ['Boa noite, pequeno explorador das estrelas!'], None),
+  ]),
+ dict(nome='4-O-Tesouro-do-Fundo-do-Mar', historia='História 4', titulo='O Tesouro do Fundo do Mar',
+  capa=(0.45, 0.88, 'Uma nova aventura, um novo mundo, sempre com a luz da amizade!'),
+  paginas=[
+   (0.40, 1, 'O Convite', ['Naquela noite, César sonhou com um mar azul cristalino e um chamado especial. Seus amigos dinossauros o esperavam para uma aventura diferente: explorar o fundo do mar!', 'Com entusiasmo, César colocou sua máscara de mergulho e preparou o coração para descobrir os segredos das profundezas.'], None),
+   (0.37, 1, 'Os Guardiões das Profundezas', ['Ao mergulhar, César encontrou um mundo incrível! Os dinossauros agora eram gigantes e majestosos, nadando ao seu lado como verdadeiros guardiões do oceano.', 'Um enorme dinossauro azul iluminava o caminho com sua luz suave, enquanto o verde e o rosa exploravam as cavernas submarinas.'], None),
+   (0.36, 0.87, 'A Pérola Luminosa', ['No fundo de uma caverna, César encontrou uma linda concha gigante. Dentro dela, havia uma pérola brilhante, que emitia uma luz mágica e dourada.', 'Os dinossauros se aproximaram, felizes e curiosos, como se soubessem que aquele era um tesouro especial.'], 'Os maiores tesouros não são feitos de ouro, mas de amigos que iluminam o caminho.'),
+   (0.38, 1, 'A Volta para Casa', ['Depois de viver toda aquela magia, César e seus amigos subiram juntos para a superfície, seguindo as bolhas de luz que os guiavam.', 'Ao chegar em casa, ele percebeu que o verdadeiro tesouro era ter amigos incríveis para compartilhar cada descoberta.'], None),
+   (0.40, 0.87, 'Bons Sonhos', ['De volta ao quarto, César deitou-se feliz, com seus dinossauros ao redor. A pérola brilhante ficou em seu travesseiro, iluminando o ambiente com uma luz suave e acolhedora.', 'E assim, com o coração cheio de alegria, ele adormeceu, sonhando com novas aventuras no fundo do mar.'], 'Fim da História 4. Boa noite, pequeno explorador do mar!'),
+  ]),
+ dict(nome='5-A-Missao-nas-Estrelas', historia='História 5', titulo='A Missão nas Estrelas',
+  capa=(0.44, 0.86, 'Bons amigos levam você para lugares incríveis!'),
+  paginas=[
+   (0.38, 1, 'O Grande Plano', ['Naquela noite, César recebeu um convite muito especial: uma missão espacial!', 'Ele e seus dinossauros iriam viajar para um planeta distante, onde as estrelas brilhavam ainda mais forte. Com sua mochila, capacete e muita coragem, César se preparou para essa aventura intergaláctica.'], None),
+   (0.34, 1, 'O Planeta das Luzes', ['Ao chegar no novo planeta, César e seus amigos descobriram um lugar mágico! O céu era cheio de estrelas coloridas e o solo brilhava em tons de azul, roxo e dourado.', 'Os dinossauros, agora gigantes, exploravam com alegria cada canto daquele mundo desconhecido.'], None),
+   (0.35, 0.87, 'O Cristal do Poder', ['No centro do planeta, eles encontraram um cristal incrível, que brilhava como mil estrelas.', 'O cristal tinha o poder de unir todos os dinossauros e trazer ainda mais luz para o universo. César sabia que aquele era um momento único e especial.'], 'Quando compartilhamos a luz, ela se torna ainda mais forte.'),
+   (0.37, 1, 'O Retorno', ['Depois de cumprir a missão, César e seus amigos voltaram para casa, cruzando o céu estrelado em um foguete especial.', 'A viagem foi longa, mas cheia de aventuras e boas lembranças. Eles sabiam que, juntos, podiam explorar qualquer lugar do universo.'], None),
+   (0.40, 0.88, 'Bons Sonhos', ['De volta ao quarto, César deitou-se com um sorriso no rosto. Seus dinossauros estavam ao seu lado, e o brilho das estrelas ainda podia ser visto em seus olhos.', 'Ele adormeceu pensando em novas missões, novos planetas e em tudo o que ainda poderiam viver juntos.'], 'Fim da História 5. Boa noite, pequeno explorador das estrelas!'),
+  ]),
+]
